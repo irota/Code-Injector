@@ -4,7 +4,7 @@
   "description": "Inject code into websites! (JavaScript, CSS, HTML and Files)",
   "main": "background.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "gulp build"
   },
   "repository": {
     "type": "git",
@@ -17,12 +17,19 @@
   },
   "homepage": "https://github.com/Lor-Saba/Code-Injector.git#readme",
   "devDependencies": {
-    "grunt": "^1.0.1",
-    "grunt-contrib-clean": "^1.1.0",
-    "grunt-contrib-compress": "^1.4.3",
-    "grunt-contrib-copy": "^1.0.0",
-    "grunt-contrib-sass": "^1.0.0",
-    "grunt-contrib-watch": "^1.0.0",
+    "autoprefixer": "^9.5.1",
+    "cssnano": "^4.1.7",
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-cli": "^2.0.1",
+    "gulp-filter": "^5.1.0",
+    "gulp-if": "^2.0.2",
+    "gulp-load-plugins": "^1.2.4",
+    "gulp-plumber": "^1.0.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-zip": "^4.2.0",
     "monaco-editor": "^0.16.2"
   }
 }

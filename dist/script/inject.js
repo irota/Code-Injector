@@ -52,8 +52,23 @@
         }
         else{
 
-            var el = document.createElement('style');
-                el.textContent = _rule.code;
+			var	el = document.createElement('style');			
+			
+			if (_rule.code.includes("---")) {
+				var fm, attrs, att, val;
+				fm = _rule.code.match(/^(---)(.|\n)*(---)$/gim)[0];
+				_rule.code = _rule.code.replace(fm,"");
+				attrs = fm.replace(/---/g,"").replace(/\n\n/g,"\n").trim().split("\n");
+				
+				attrs.forEach(function(element){
+					att = element.substr(0, element.indexOf(":")).trim();
+					val = element.substr(element.indexOf(":")+1).trim();
+					el.setAttribute(att, val);
+				});				
+			}
+			
+	
+            el.textContent = _rule.code;
 
             document.head.append(el);
 
