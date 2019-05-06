@@ -4,6 +4,13 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [0.2.3] - 2019-05-01
+
+####b Changed
+- Update Monaco Editor to 0.16.2
+- Remove grunt
+- Added gulp
+- Added frontmatter possibility in comment block on top of the code in CSS data 
 
 ## [0.2.2] - ????-??-??
 
