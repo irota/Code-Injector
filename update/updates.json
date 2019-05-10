@@ -3,7 +3,7 @@
     "{3902eb5e-fb26-47c6-9b4a-10375b183d0c}": {
       "updates": [
         { "version": "0.2.4",
-          "update_link": "https://github.com/irota/Code-Injector/archive/code_injector-v0.2.4.xpi",
+          "update_link": "https://github.com/irota/Code-Injector/releases/download/0.2.4/code_injector-v0.2.4-fx.xpi",
           "applications": {
             "gecko": { "strict_min_version": "55" } } }
       ]
