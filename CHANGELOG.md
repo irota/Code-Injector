@@ -4,9 +4,15 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [0.2.4] - 2019-05-10
+
+#### Changed
+- Update Monaco editor
+- Added updating possibility
+
 ## [0.2.3] - 2019-05-01
 
-####b Changed
+#### Changed
 - Update Monaco Editor to 0.16.2
 - Remove grunt
 - Added gulp

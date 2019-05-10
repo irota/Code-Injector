@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/Lor-Saba/Code-Injector.git#readme",
   "dependencies": {
-    "monaco-editor": "^0.16.2"
+    "monaco-editor": "^0.17.0"
   },
   "devDependencies": {
     "autoprefixer": "^9.5.1",

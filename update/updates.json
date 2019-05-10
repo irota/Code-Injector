@@ -1,0 +1,12 @@
+{
+  "addons": {
+    "{3902eb5e-fb26-47c6-9b4a-10375b183d0c}": {
+      "updates": [
+        { "version": "0.2.4",
+          "update_link": "https://github.com/irota/Code-Injector/archive/code_injector-v0.2.4.xpi",
+          "applications": {
+            "gecko": { "strict_min_version": "55" } } }
+      ]
+    }
+  }
+}
